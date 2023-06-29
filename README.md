@@ -9,10 +9,15 @@
 
 <h2>App images</h2>
 <img src="images/home.png">
+<p>home page</p>
 <img src="images/account.png">
+<p>account page</p>
 <img src="images/pix.png">
+<p>pix page</p>
 <img src="images/form.png">
+<p>transaction page</p>
 <img src="images/success.png">
+<p>successfull message page</p>
 
 <h2>How to install</h2>
 <p>Make a new folder and set a new venv</p>
