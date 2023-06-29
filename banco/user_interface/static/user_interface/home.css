@@ -1,0 +1,47 @@
+.section-one{
+    padding-bottom: 2vh;
+    border-bottom: 1px solid rgb(10, 10, 10, 0.2);
+}
+
+.main-text{
+    color: #000000F5;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bg-nav{
+    position: fixed;
+    height: 9.3vh;
+    width: 100vw;
+    background-color:  ffa535;
+    z-index: 5;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.conta{
+    display: flex;
+    padding-bottom: 2vh;
+}
+
+.conta-right{
+    width: 30%;
+    font-size: 18px;
+}
+
+.conta-left{
+    display: flex;
+    padding-top: 20px;
+    width: 50%;
+}
+
+@media only screen and (min-width: 960px) {
+    .conta-right{
+        width: 10%;
+    }
+    
+  }

@@ -1,0 +1,68 @@
+
+input[type=text]{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000F5;
+    border: none;
+}
+
+input[type=text]:focus-visible{
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+input[type=number]:focus-visible{
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+input[type=number]{
+    display: flex;
+    align-items: end;
+    width: 90.3%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000F5;
+    margin: 20px 0;
+    margin-bottom: 0;
+    border: none;
+    padding: 0;
+}
+
+input[type=submit]{
+    margin-top: 20px;
+}
+
+.form1{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.form1 p{
+    display: flex;
+    align-items: end;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000F5;
+    margin-right: 3px;
+    margin-bottom: 0;
+}
+
+.form2{
+    border-bottom: 1px solid black;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.error-msg{
+    height: 44px;
+    display: flex;
+    align-items: end;
+}
+
+.error-msg p{
+    margin: 0;
+    color: red;
+}

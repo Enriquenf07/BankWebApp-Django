@@ -1,0 +1,121 @@
+.balance{
+    font-size: 35px;
+}
+
+
+.transfer-button{
+    margin-bottom: 10vh;
+}
+
+.transfer-button h1{
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 13px;
+}
+
+.transaction-header h1{
+    font-size: 20px;
+}
+
+.transaction{
+    display: flex;
+    height: 13vh;
+    width: 100%;
+    border-bottom: 1px solid rgb(10, 10, 10, 0.2);
+}
+
+.transaction p{
+    margin: 0;
+}
+
+.currency-icon{
+    padding-right: 5%;
+    padding-top: 23px;
+}
+
+.currency-icon div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+
+.bg-sender{
+    background-color: rgb(169, 169, 169, 0.3);
+}
+
+.bg-receiver{
+    background-color: rgb(0, 128, 0, 0.3);
+}
+
+.color-sender{
+    color: rgb(0, 0, 0, 0.5);
+}
+
+.color-receiver{
+    color: rgb(41, 148, 27);
+}
+
+.transaction-value{
+    padding-top: 18px;
+    width: 100%;
+    height: 100%
+}
+
+.transaction-value p{
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+
+.transaction-date{
+    display: flex;
+    justify-content: end;
+    padding-top: 23px;
+    height: 100%;
+    width: 100%;
+}
+
+.transaction-date p{
+    font-size: 14px;
+}
+
+@media only screen and (min-width: 960px) {
+    .section-one p, a{
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .transfer-button{
+        width: 17%;
+    }
+
+    .button-link-parent{
+        display: flex;
+        width: 20%;
+        margin-bottom: 15vh;
+    }
+
+    .button-link{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 5px;
+        margin-bottom: 0;
+    }
+
+    .button-link i{
+        padding-left: 0;
+    }
+
+  }

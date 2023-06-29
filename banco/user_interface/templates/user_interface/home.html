@@ -1,0 +1,43 @@
+{% load static %}
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="{% static 'user_interface/mainstyle.css' %}">
+    <link rel="stylesheet" href="{% static 'user_interface/home.css' %}">
+</head>
+<body>
+    <div class="bg-nav"></div>
+    <div class="content">
+        <nav>
+            <h1 class="main-text">Olá, {{user.username|title}}</h1>
+            <i class="bi bi-gear"></i>
+        </nav>
+        <div class="section-one">
+            <a href="{% url 'account' %}" class="link">
+                <div class="conta">
+                    <div class="conta-right">
+                        <p class="font-color1">Conta</p>
+                        <p class="font-color1">R$ {{account.balance}}</p>
+                    </div>
+                    <div class="conta-left"><i class="bi bi-chevron-right"></i></div>
+                </div>
+            </a>
+            <a href="{% url 'transfer_area' %}" class="link button-link-parent">
+                <div class="button-link">
+                    <i class="bi bi-x-diamond"></i>
+                    <p>Área Pix</p>
+                </div>
+            </a>
+        </div>
+        
+        
+
+
+        
+    </div>
+    
+</body>
+</html>

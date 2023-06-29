@@ -1,0 +1,59 @@
+@import url(//db.onlinewebfonts.com/c/105007d99d9df64c50cc24d696d79555?family=Graphik+Web+Regular);
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Graphik', sans-serif;
+}
+
+nav{
+    height: 9.3vh;
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    z-index: 10;
+    width: 90vw;
+}
+
+.button-link{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+    height: 6vh;
+    background-color: rgb(169, 169, 169, 0.3);
+}
+
+.button-link i{
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.font-color1{
+    font-weight: bold;
+    color: #000000F5;
+}
+
+.font-color2{
+    color: #000000A3;
+}
+
+@media only screen and (min-width: 960px) {
+    .button-link-parent{
+        display: flex;
+        width: 13%;
+    }
+
+    .content{
+        width: 75vw;
+    }
+    
+  }
