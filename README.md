@@ -5,7 +5,7 @@
 <p>The user can see his bank account;</p>
 <p>Do bank transactions to other users (pix),</p>
 <h2>App design</h2>
-<img src="imagens/uml-diagram.png">
+<img src="images/uml-diagram.png">
 
 <h2>App images</h2>
 <img src="images/home.png">
