@@ -8,11 +8,11 @@
 <img src="imagens/uml-diagram.png">
 
 <h2>App images</h2>
-<img src="imagens/home.png">
-<img src="imagens/account.png">
-<img src="imagens/pix.png">
-<img src="imagens/form.png">
-<img src="imagens/success.png">
+<img src="images/home.png">
+<img src="images/account.png">
+<img src="images/pix.png">
+<img src="images/form.png">
+<img src="images/success.png">
 
 <h2>How to install</h2>
 <p>Make a new folder and set a new venv</p>
